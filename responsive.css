@@ -1,0 +1,120 @@
+/* @media (min-width: 640px) {  }
+	@media (min-width: 768px) {  }
+	@media (min-width: 1024px) {  }
+	@media (min-width: 1280px) {  }
+	@media (min-width: 1536px) {  } */
+
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+    .banner-content h1 {
+        font-size: 90px;
+    }
+    .banner-content h4 {
+        font-size: 36px;
+    }
+    .section-title p {
+        max-width: 620px;
+        text-align: justify;
+    }
+    .about-icon i {
+        font-size: 50px;
+       }
+       .about-meta h2 {
+        font-size: 22px;
+    }
+    .about-meta p {
+        margin-bottom: 30px;
+        text-align: justify;    
+    }
+    
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .banner-content h1 {
+        font-size: 60px;
+    }
+    .banner-content h3 {
+        font-size: 27px;
+    }
+    .banner-content h4 {
+        font-size: 26px;
+    }
+    .section-title p {
+        max-width: 560px;
+        text-align: justify;
+    }
+    .about-icon i {
+        font-size: 45px;
+       }
+       .about-meta h2 {
+        font-size: 22px;
+    }
+    .about-meta p {
+        margin-bottom: 40px;
+        text-align: justify;    
+    }
+}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .banner-content h1 {
+        font-size: 55px;
+    }
+    .banner-content h3 {
+        font-size: 26px;
+    }
+    .banner-content h4 {
+        font-size: 24px;
+    }
+    .section-title p {
+        max-width: 435px;
+        text-align: justify;
+    }
+    .about-icon i {
+        font-size: 40px;
+       }
+       .about-meta h2 {
+        font-size: 22px;
+    }
+    .about-meta p {
+        margin-bottom: 30px;
+        text-align: justify;    
+    }
+}
+
+
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 575px) {
+    .banner-content h1 {
+        font-size: 40px;
+    }
+    .banner-content h3 {
+        font-size: 22px;
+    }
+    .banner-content h4 {
+        font-size: 19px;
+    }
+    .section-title p {
+        max-width: 340px;
+        text-align: justify;
+    }
+    .about-icon i {
+        font-size: 40px;
+       }
+       .about-meta h2 {
+        font-size: 18px;
+    }
+    .about-meta p{
+        max-width: 80%;
+    }
+    .about-meta p {
+        max-width: 70%;
+        margin: 0 auto;
+        padding-bottom: 20px;
+        text-align: justify;
+    }
+}
+
+

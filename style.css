@@ -1,0 +1,415 @@
+/* font-family: 'Archivo Narrow', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  scroll-behavior: smooth;
+}
+.menu-bg {
+  background: #607d8b !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 8px;
+}
+img {
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+
+header {
+  background: url(img/banner-bg.jpg) no-repeat center center / cover;
+}
+
+/* navbar css */
+.nav-link {
+  font-weight: 700;
+  color: #fff;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .show > .nav-link {
+  color: #87d37c;
+}
+.nav-link:focus,
+.nav-link:hover {
+  color: #87d37c;
+}
+
+.banner-content {
+  padding: 180px 0;
+}
+.banner-content h3,
+h1 {
+  font-weight: 700;
+}
+.banner-content h3,
+h1,
+h4 {
+  font-family: "Roboto", sans-serif;
+}
+.banner-content h3 {
+  font-size: 40px;
+  color: #fff;
+}
+.banner-content h1 {
+  font-size: 100px;
+  margin-top: 8px;
+  color: #fefbfc;
+  border: 2px solid #fefbfc;
+  padding: 12px 20px;
+  display: inline-block;
+}
+
+.banner-content h1 span {
+  color: #87d37c;
+}
+.banner-content h4 {
+  font-size: 36px;
+  color: #fff;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #87d37c;
+}
+/* banner css end */
+/* about css start */
+
+.section-padding {
+  padding: 70px 0;
+}
+.section-title h2 {
+  font-size: 36px;
+  font-family: "Archivo Narrow", sans-serif;
+  text-transform: uppercase;
+}
+.section-title p {
+  max-width: 725px;
+  margin: 0 auto;
+}
+
+.about-icon i {
+  font-size: 60px;
+  transition: 0.3s;
+}
+.about-meta h2 {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 700;
+  transition: 0.3s;
+  padding-bottom: 3px;
+  padding-top: 20px;
+}
+.about-meta p {
+  text-align: justify;
+}
+.about-items:hover .about-icon i {
+  color: #87d37c;
+}
+.about-items:hover .about-meta h2 {
+  color: #87d37c;
+}
+/* end about css */
+/* start service css */
+#service {
+  background-color: #e1e1e1;
+}
+.section-title h2 {
+  font-size: 36px;
+  font-family: "Archivo Narrow", sans-serif;
+  text-transform: uppercase;
+}
+.service-items {
+  position: relative;
+  overflow: hidden;
+}
+.service-item-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.663);
+  left: 0;
+  bottom: -100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+.service-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.service-link a {
+  height: 50px;
+  width: 50px;
+  color: #fff;
+  border: 1px solid #fff;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 50%;
+}
+.service-link a:hover {
+  background-color: #87d37c;
+  border: 1px solid #87d37c;
+}
+.service-items:hover .service-item-overlay {
+  bottom: 0;
+}
+
+/* end service css */
+/* start portfolio css */
+.portfolio-item-nav {
+  padding: 0px 20px;
+  text-align: center;
+  margin: 38px;
+  text-transform: uppercase;
+}
+.portfolio-item-nav button {
+  padding: 5px 15px;
+  font-size: 14px;
+  font-weight: 700;
+  background: #000;
+  color: #fff;
+}
+.portfolio-items {
+  line-height: 5px;
+}
+.single-portfolio {
+  position: relative;
+  overflow: hidden;
+}
+.portfolio-item-overaly {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: -100%;
+  transition: 0.4s;
+  text-transform: uppercase;
+}
+.single-portfolio:hover .portfolio-item-overaly {
+  bottom: 0;
+  color: #87d37c;
+}
+/*end  portfolio css  */
+/* start pricing css */
+.price-card {
+  background: #39393a;
+  border-radius: 8px;
+  padding: 30px 40px;
+  transition: 0.4s;
+  text-transform: uppercase;
+}
+.price-card-header {
+  border: 4px solid #fff;
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  padding: 10px;
+  transition: 0.4s;
+}
+.price-card-body {
+  text-align: center;
+}
+ul.feature-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ul.feature-list li {
+  color: #fff;
+  text-align: center;
+  border-bottom: 1px solid #fff;
+  max-width: 135px;
+  margin: 30px auto;
+}
+.btn-order {
+  transition: 0.4s;
+}
+.price-card:hover {
+  background: #87d37c;
+}
+.price-card:hover .price-card-header {
+  background: #fff;
+  color: #87d37c;
+}
+.price-card:hover .btn-order {
+  color: #87d37c;
+  background: #fff;
+}
+
+/* end pricing css */
+/* start couter css */
+#counter-area {
+  background: url(img/couter-1.jpg) no-repeat center center / cover;
+  padding: 75px 0;
+}
+.single-counter {
+  border: 1px solid #5b5853;
+  text-align: center;
+  padding: 18px 12px;
+  position: relative;
+  z-index: 1;
+}
+.single-counter::after {
+  content: "";
+  position: absolute;
+  background: rgba(4, 4, 4, 0.763);
+  height: 100%;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.single-counter h1 {
+  color: #fff;
+  font-size: 72px;
+  font-weight: 700;
+  margin: 0;
+}
+.single-counter h5 {
+  font-size: 18px;
+  color: #fff;
+}
+
+/* end couter css */
+/* start service css */
+
+.section-padding {
+  padding-bottom: 40px;
+}
+.section-title h2 {
+  font-size: 36px;
+  font-family: "Archivo Narrow", sans-serif;
+  text-transform: uppercase;
+}
+.section-title p {
+  max-width: 725px;
+  margin: 0 auto;
+}
+
+.contact-icon i {
+  font-size: 60px;
+  transition: 0.3s;
+}
+.contact-meta h6 {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 700;
+  transition: 0.3s;
+  padding-bottom: 3px;
+  padding-top: 20px;
+}
+.contact-meta a {
+  color: #000;
+  font-size: 12px;
+}
+.contact-meta i {
+  text-align: justify;
+}
+.contact-items:hover .contact-icon i {
+  color: #87d37c;
+}
+.contact-items:hover .contact-meta h6 {
+  color: #87d37c;
+}
+
+/* end service css */
+/* start form css */
+.full-form {
+  background: #ddd;
+  padding-top: 75px;
+  padding-bottom: 65px;
+}
+.button-space {
+  max-width: 80%;
+}
+.form-1 {
+  max-width: 80%;
+}
+.form-bar {
+  margin: 12px;
+  font-style: italic;
+}
+.button-bar {
+  background: #87d37c;
+  padding: 9px 20px;
+  color: #fff;
+  margin-left: 12px;
+  border-radius: 5px;
+  border: none;
+  text-transform: uppercase;
+}
+.button-k:hover {
+  background: #99c592;
+}
+
+/* end form css */
+/* start map css */
+.map {
+  margin-top: -40px;
+  padding: 0;
+}
+/* end map css */
+.scrollTop {
+  font-size: 30px;
+  height: 50px;
+  width: 50px;
+  background: #99c592;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: fixed;
+  right: 30px;
+  bottom: 70px;
+  z-index: 99999;
+}
+/* start footer css */
+footer {
+  background: #000101;
+  color: #fff !important;
+  padding: 15px 0;
+}
+.social-link a {
+  font-size: 22px;
+  padding: 0 3px;
+  background: #000;
+  border-radius: 24%;
+  justify-content: space-between;
+}
+.social-link a:hover {
+  background: #ccc;
+  color: #87d37c;
+}
+/* end footer css */
